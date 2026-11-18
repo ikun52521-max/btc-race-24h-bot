@@ -149,7 +149,7 @@ function raceOrders(state: BarsState): (BuyInput | SellInput)[] {
     qty > 0n ? [{ side: 'sell', symbol: SYMBOL, qty, max_slippage_bps: MAX_SLIPPAGE_BPS }] : [];
   if (qty === 0n) {
     if (state.seq - lastSellSeq < 10) return [];
-    const dipped = c < closes[i - 30] * 0.988;
+    const dipped = c < closes[i - 30] * 0.985;
     const bounce = c > closes[i - 1] || (rsi() !== null && (rsi() as number) < 35);
     if (dipped && bounce) {
       entryMode = 'dip';

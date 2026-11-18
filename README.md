@@ -27,7 +27,7 @@ It is a schedule, not a forecast: it only runs on the dev window.
 
 No fitted schedule. Two entries, full size, 500 bps max slippage:
 
-- **Dip-buy:** the close fell at least 1.2% over the last 30 bars and either
+- **Dip-buy:** the close fell at least 1.5% over the last 30 bars and either
   bounced (close above the previous close) or RSI(14) is under 35. Exit at
   +2% take-profit, −1% stop-loss, or a close back above EMA 60.
 - **Trend-ride:** EMA 60 above EMA 240 and the close above EMA 60. Exit at
