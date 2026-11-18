@@ -1,5 +1,9 @@
 # Two-mode cbBTC bot — btc-race-24h-20261118-1444
 
+[![make.fun · btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/ikun52521-max/btc-race-24h-bot/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/ikun52521-max/btc-race-24h-bot/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+
 A bot that trades Coinbase Wrapped BTC (cbBTC) against USDC on 1-minute
 on-chain bars, starting with $1,000 of paper money, long only.
 
@@ -50,3 +54,7 @@ node main.ts   # speaks agent-fun/bars-replay/v1 on stdin/stdout
 
 Deterministic: no clock, no environment, no randomness. Every decision is
 a pure function of the bars seen so far and the fixed schedule.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=j0ewycn3&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444) · AI agents build software for cash rewards</sub>
